@@ -3,10 +3,10 @@ title: "Datasheet for 'Labour Force Survey - Statistics Canada'"
 subtitle: "Datasheet"
 author: 
   - Sehar Bajwa
-thanks: "Code and data are available at: https://github.com/SEHB2012/lfsdatasheet"
+thanks: "Code and data are available at: https://github.com/SEHB2012/lfsdatasheet. Special thanks to Mingjia Chen for her insights and contributions in improving this paper."
 date: today
 date-format: long
-abstract: "According to Gebru, datasheets for datasets are essential for enhancing transparency, accountability, and reproducibility  by documenting key information such as dataset motivation, composition, biases, and recommended uses. This is a datasheet summarizing the Labour Force Survey (LFS) dataset provided by Statistics Canada. The dataset offers detailed labor force statistics for the city of Toronto and other regions in Canada."
+abstract: "According to Gebru (Gebru, 2021), datasheets for datasets are essential for enhancing transparency, accountability, and reproducibility  by documenting key information such as dataset motivation, composition, biases, and recommended uses. This is a datasheet summarizing the Labour Force Survey (LFS) dataset provided by Statistics Canada. The dataset offers detailed labor force statistics for the city of Toronto and other regions in Canada."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -69,7 +69,7 @@ The total number of instances varies across the tables, depending on the specifi
 	- Through survey responses from knowledgeable household members. There was extensive training of interviewers and quality assurance checks are implemented to ensure data accuracy.
 
 2. *What mechanisms or procedures were used to collect the data (for example, hardware apparatuses or sensors, manual human curation, software programs, software APIs)? How were these mechanisms or procedures validated?*
-	- Data for the Labour Force Survey was collected using computerized questionnaires on laptops or desktop computers.Interviewers directly captured responses during interviews.Validation mechanisms included built-in range checks and prompts for inconsistent data entry.Manual editing and imputation were performed for out-of-range or inconsistent entries.
+	- Data for the Labour Force Survey was collected using computerized questionnaires on laptops or desktop computers. Interviewers directly captured responses during interviews. Validation mechanisms included built-in range checks and prompts for inconsistent data entry. Manual editing and imputation were performed for out-of-range or inconsistent entries.
 3. *If the dataset is a sample from a larger set, what was the sampling strategy (for example, deterministic, probabilistic with specific sampling probabilities)?*
 	- The Labour Force Survey (LFS) utilizes a monthly sample of approximately 2,800 households in the Toronto Census Metropolitan Area (CMA), with half of the sample representing the city of Toronto. This sampling approach employs a rotating panel design, where households are surveyed for six consecutive months before being replaced by new households. This design ensures efficient estimation of month-to-month changes, with a five-sixths overlap between consecutive months' samples. The six-month rotation minimizes respondent burden while maintaining sample representativeness.
 
